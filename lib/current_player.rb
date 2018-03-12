@@ -2,7 +2,7 @@
 def turn_count(board)
   i = 0
   board.each do |move|
-    move == "X" || move == "O" ? i += 1 : { }
+    move == "X" || move == "O" ? i += 1 : {}
   end
   i
 end
